@@ -156,13 +156,13 @@ header .div-header-container .div-header h1 {
   color: black;
   padding: 30px;
   display: grid;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 60% 40%;
 }
 .section-2 .section-2-right .section-2-right-top {
   text-align: left;
 }
 .section-2 .section-2-right .section-2-right-top p {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .section-2 .section-2-right .section-2-right-top img {
   width: 100%;
