@@ -1,0 +1,35 @@
+footer{
+    ul{
+        display: flex;
+        justify-content: center;
+        background: $color2;
+        color: black;
+        font-size: 1.5rem;
+        li{
+            cursor: pointer;
+            margin: 10px 20px;
+            transition: 0.3s;
+            &:hover{
+                color: skyblue;
+                transform: scale(1.3);
+            }
+        }
+    }
+
+    .contact{
+        margin: 15px 0;
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        div:nth-child(1){
+            display: flex;
+            text-transform: uppercase;
+            justify-content: space-evenly;
+            font-size: 0.7rem;
+            font-weight: 100;
+
+        }
+        div:nth-child(3){
+            font-size: 0.7rem;
+        }
+    }
+}

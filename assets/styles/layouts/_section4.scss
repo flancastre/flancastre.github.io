@@ -1,0 +1,32 @@
+.section-4{
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    .section-4-left {
+        background: $color3 ;
+        color: black;
+        padding: 50px;
+        text-align: left;
+        img{
+            width: 90%;
+        }
+        h3{
+            margin: 20px 0;
+        }
+    }
+
+       .section-4-right {
+        background: $color2 ;
+        color: black;
+        padding: 50px;
+        text-align: left;
+        img{
+            width: 90%;
+        }
+        h3{
+            margin: 20px 0;
+        }
+    }
+
+}

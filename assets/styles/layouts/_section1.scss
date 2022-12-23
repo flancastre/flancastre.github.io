@@ -1,0 +1,39 @@
+.section-1 {
+
+   
+  
+    h2{
+        margin: 50px auto;
+    }
+
+    .div-section-1{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        width: 80%;
+        margin: 0 auto;
+      justify-items: center;
+       
+    
+        
+    
+        img{
+            height: 200px;
+           border-radius: 5px;           
+        }
+    }
+
+    button{
+        margin: 50px auto;
+        cursor: pointer;
+        width: 50%;
+        height: 50px;
+        text-transform: uppercase;
+        font-size: 1.7rem;
+        font-weight: 700;
+        transition: 0.3s;
+        &:hover{
+            color: skyblue;
+
+        }
+    }
+}
